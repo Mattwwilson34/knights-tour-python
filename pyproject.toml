@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "knights-tour-python"
+version = "0.1.0"
+description = ""
+authors = ["Matt Wilson <mattwwilson34@gmail.com>"]
+readme = "README.md"
+packages = [{include = "knights_tour_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
